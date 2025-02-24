@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 200vh;        
+    margin: 0;             
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 5px; 
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: rgb(119, 121, 179);
+}
+
+input[type="number"] {
+    width: 215px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.calculator {
+    border: 1px solid #333;  
+    border-radius: 10px;         
+    padding: 20px;                 
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 280px;          
+    gap: 10px; 
+    background-color:black;               
+}
+
+button[onclick="add()"] { 
+    border-color:black;
+}
+button[onclick="sub()"] { 
+    border-color:black;
+}
+
+button[onclick="mult()"] { 
+    border-color: black;
+}
+
+button[onclick="div()"] { 
+    border-color: black;
+}
+
+button[onclick="AC()"] {  
+    border-color:black;
+}
+
+
+button[onclick="sin()"] {  
+    border-color:black;
+}
+
+
+button[onclick="log()"] { 
+    border-color:black;
+}
+
+
+button[onclick="e()"] { 
+    border-color:black;
+}
+
+
+button[onclick="mod()"] { 
+    border-color:black;
+}
+
+
+button[onclick="fact()"] { 
+    border-color:black;
+}
